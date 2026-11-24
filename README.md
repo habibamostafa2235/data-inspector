@@ -11,8 +11,18 @@ A lightweight Python notebook for inspecting and summarizing tabular datasets (`
 ## Installation
 ```bash
 pip install -r requirements.txt
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Usage
-Open `automation_data.ipynb` in Jupyter Notebook or VS Code and run the cells. You can pass a file path directly or leave it `None` to enter it when prompted:
+
+Open `automation_data.ipynb` in Jupyter Notebook or VS Code and run the cells. You can pass a file path directly:
 
 ```python
 df = run_inspector("path/to/your/file.xlsx")
+```
+
+Or call `run_inspector()` with no arguments to be prompted for a path.
